@@ -4,7 +4,7 @@ namespace MarceloCorrea\LaravelEmail;
 
 use Illuminate\Support\ServiceProvider;
 
-class EmailServiceProvider extends ServiceProvider
+class EmailSettingsServiceProvider extends ServiceProvider
 {
     public function boot()
     {

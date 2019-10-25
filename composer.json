@@ -16,13 +16,13 @@
     "extra": {
         "laravel": {
             "providers": [
-                "MarceloCorrea\\LaravelEmail\\EmailServiceProvider"
+                "MarceloCorrea\\LaravelEmailSettings\\EmailSettingsServiceProvider"
             ]
         }
     },
     "autoload": {
         "psr-4": {
-            "MarceloCorrea\\LaravelEmail\\": "src/"
+            "MarceloCorrea\\LaravelEmailSettings\\": "src/"
         }
     }
 }
